@@ -74,8 +74,6 @@ public class PlayerC : MonoBehaviour
                 { 
                     rb.AddForce(new Vector3(0, jumpPower, 0));
                     jumpK =false;
-                    an.SetBool(key_isRun, false);
-                    an.SetBool(key_isJump, true);
                 }
          }
 
@@ -117,8 +115,6 @@ public class PlayerC : MonoBehaviour
         if((collision.gameObject.CompareTag("Grand")&&jumpK==false) || (collision.gameObject.CompareTag("Asiba") && jumpK == false))
         {
             jumpK=true;
-            this.An.SetBool(key_isRun, true);
-            this.An.SetBool(key_isJump, false);
         }
         if (Muteki==false&&collision.gameObject.CompareTag("D"))
         {

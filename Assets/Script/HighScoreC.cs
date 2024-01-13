@@ -24,24 +24,7 @@ public class HighScoreC : MonoBehaviour
         oldKMeter=MKMeter;
         NewKMeter = Rizaluto.GetRKMeter();
         HText.text = "";
-        //Newcoin = Rizaluto.GetRcoin();
-        //oldcoin=Newcoin;/**/
-        /**/
-        /*if (oldMeter<=0&&oldKMeter<=0&&oldcoin<=0)
-        {
-            Debug.Log("A");
-            HText.text="ハイスコア:走行距離0m・コイン0枚" ;
-        }
-        if(oldMeter > 0 && oldMeter<1000 && oldKMeter <= 0 && oldcoin >= 0)
-        {
-            Debug.Log("B");
-            HText.text = "ハイスコア:走行距離"+oldKMeter+"m・コイン"+oldcoin+"枚";
-        }
-        if (oldMeter > 0 && oldMeter >= 1000 && oldKMeter > 0 && oldcoin >= 0)
-        {
-            Debug.Log("C");
-            HText.text = "ハイスコア:走行距離" + oldKMeter+(oldMeter/10-oldKMeter*100) + "km・コイン" + oldcoin+"枚";
-        }*/
+
     }
 
     // Update is called once per frame
